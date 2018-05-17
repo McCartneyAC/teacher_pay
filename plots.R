@@ -1,11 +1,8 @@
 library(tidyverse)
 library(ggthemes)
-read_excel <- function(header=TRUE,...) {
-  read.table("clipboard",sep="\t",header=header,...)
-}
-states<-read_excel()
-states<-as_tibble(states)
-states
+library(readxl)
+
+states<-read_xlsx("data.xlsx")
 ggplot(states, aes(x=Actual.Pay, y = Adjusted.Pay)) + 
   geom_point(aes(color=factor(Strike))) +
   geom_smooth(color="orange") + 
