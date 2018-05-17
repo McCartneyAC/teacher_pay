@@ -1,11 +1,13 @@
+
 library(tidyverse)
 library(ggthemes)
 library(readxl)
 
 states<-read_xlsx("data.xlsx")
-ggplot(states, aes(x=Actual.Pay, y = Adjusted.Pay)) + 
+states
+ggplot(states, aes(x=`Actual Pay`, y = `Adjusted Pay`)) + 
   geom_point(aes(color=factor(Strike))) +
-  geom_smooth(color="orange") + 
+  geom_smooth(method = "lm", color="orange", formula = y ~ splines::bs(x, 3)) + 
   labs(
     title="Teacher Pay and Cost of Living by State",
     y = "Cost-of-Living Adjusted Pay",
