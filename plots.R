@@ -17,4 +17,6 @@ Strike in 2018",
     caption = "Data via NPR"
   ) + 
   theme_gdocs()+
-  scale_color_fivethirtyeight()
+  scale_color_fivethirtyeight()+
+  scale_x_continuous(labels = scales::dollar)+
+  scale_y_continuous(labels = scales::dollar)
