@@ -6,7 +6,7 @@ library(readxl)
 states<-read_xlsx("data.xlsx")
 states
 ggplot(states, aes(x=`Actual Pay`, y = `Adjusted Pay`)) + 
-  geom_point(aes(color=factor(Strike))) +
+  geom_text(aes(label=Abbreviation, color=factor(Strike))) +
   geom_smooth(method = "lm", color="orange", formula = y ~ splines::bs(x, 3)) + 
   labs(
     title="Teacher Pay and Cost of Living by State",
