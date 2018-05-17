@@ -6,3 +6,8 @@ Using data from [NPR](https://www.npr.org/sections/ed/2018/03/16/592221378/the-f
 Additional variables likely to be added later as the project grows. 
 
 See [Brookings](https://www.brookings.edu/blog/brown-center-chalkboard/2018/04/13/which-states-might-experience-the-next-wave-of-teacher-strikes/) for a more rigorous examination of the data. 
+
+
+##### NPR Data source given as:
+Source: National Center for Education Statistics, Council of Community and Economic Research, EdBuild analysis
+Credit: Hilary Fung/NPR
