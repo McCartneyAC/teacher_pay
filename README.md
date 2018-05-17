@@ -11,3 +11,7 @@ See [Brookings](https://www.brookings.edu/blog/brown-center-chalkboard/2018/04/1
 ##### NPR Data source given as:
 Source: National Center for Education Statistics, Council of Community and Economic Research, EdBuild analysis
 Credit: Hilary Fung/NPR
+
+### How does teacher pay relate to Teacher Strikes?
+
+![model one](https://github.com/McCartneyAC/teacher_pay/blob/master/model1.png?raw=true)
