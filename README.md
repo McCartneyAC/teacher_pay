@@ -11,7 +11,7 @@ See [Brookings](https://www.brookings.edu/blog/brown-center-chalkboard/2018/04/1
 
 Variable Name	|Variable Description
 ------------ | -------------
-state	State | Name
+state	| State Name
 abbreviation	| State Abbreviation
 adjusted_pay	| Average Teacher Pay adjusted for Cost of Living
 actual_pay	| Average Teacher Pay in Raw Numbers
