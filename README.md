@@ -26,12 +26,21 @@ SatScore	| Average SAT Score
 SatReading	| Average SAT Reading
 SatMath	| Average SAT Math
 clinton_votes_2016	| Clinton Votes in 2016
-pct_clinton	| Percent who voted Clinton in 2016
-clinton_electoral	| Clinton Electoral Votes
+pct_clinton_2016	| Percent who voted Clinton in 2016
+clinton_electoral_2016	| Clinton Electoral Votes
 trump_votes_2016	| Trump Votes in 2016
-pct_trump	| Percent who voted Trump in 2016
-trump_electoral	|  Trump Electoral Votes
-
+pct_trump_2016	| Percent who voted Trump in 2016
+trump_electoral_2016	|  Trump Electoral Votes
+biden_votes_2020 | Biden raw vote counts in 2020
+pct_biden_2020 | Percent of vote share went to Biden
+biden_electoral_2020 | Electoral votes in that state. NE and ME have been aggregated.
+trump_votes_2020 | Trump Vote Share 
+pct_trump_2020 |  Trump votes Percent
+trump_electoral_2020 | Trump Electoral votes
+vax_rate |  Rate of Eligible adults fully vaccinated on june 9, 2021
+nodc_vax |  Same as vax_rate but DC is NA (for omission)
+no_dc_biden | Same as pct_biden_2020 but DC is NA (For Omission. 
+          
 
 ##### NPR Data source given as:
 Source: National Center for Education Statistics, Council of Community and Economic Research, EdBuild analysis
@@ -40,3 +49,7 @@ Credit: Hilary Fung/NPR
 ### How does teacher pay relate to Teacher Strikes?
 
 ![model one](https://github.com/McCartneyAC/teacher_pay/blob/master/model1.png?raw=true)
+
+### How does politics interplay with Vaccine takeup? 
+
+![model](https://github.com/McCartneyAC/teacher_pay/blob/master/vax_rates.png?raw=true)
