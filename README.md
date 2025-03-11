@@ -38,8 +38,16 @@ trump_votes_2020 | Trump Vote Share
 pct_trump_2020 |  Trump votes Percent
 trump_electoral_2020 | Trump Electoral votes
 vax_rate |  Rate of Eligible adults fully vaccinated on june 9, 2021
-nodc_vax |  Same as vax_rate but DC is NA (for omission)
-no_dc_biden | Same as pct_biden_2020 but DC is NA (For Omission. 
+urban_2020 | percent of the state considered urban by the US census in 2020
+GINI_2019 | GINI coefficient for the state, wealth inequality. 
+pct_religious | percent who are not listed as "atheist" or "none"
+pct_hs_diploma | percent of state above age 25 with high school diploma
+pct_bach_deg | percent of state above age 25 with a bachelors degree
+pct_advanced_deg | percent of state above age 25 with an advanced degree
+viol_crime_per_100k | count of violent crime per 100,000 residents, 2022
+alcohol_deaths_100k | count of alcohol-related deaths in the state per 100,000 residents, 2022
+drug_overdose_per_100k | count of drug-overdose related deaths in the state per 100,000 residents, 2022
+suicides_per_100k | completed suicides per 100,000 residents, 2022
           
 
 ##### NPR Data source given as:
